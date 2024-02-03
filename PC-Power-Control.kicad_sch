@@ -961,7 +961,7 @@
   (symbol (lib_id "Device:R") (at 224.79 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04cb8f27-c409-4995-b0f2-6e8c97dc37c6)
-    (property "Reference" "LED-RESISTOR1" (at 224.79 54.61 90)
+    (property "Reference" "R3" (at 224.79 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R2K2" (at 224.79 57.15 90)
@@ -978,7 +978,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "LED-RESISTOR1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -987,7 +987,7 @@
   (symbol (lib_id "Isolator:EL817") (at 124.46 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18a81c3a-d67a-457d-8bc6-bec5bb32270f)
-    (property "Reference" "RESET-SWITCH1" (at 124.46 34.29 0)
+    (property "Reference" "U1" (at 124.46 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL817" (at 124.46 36.83 0)
@@ -1006,7 +1006,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "RESET-SWITCH1") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1055,7 +1055,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 83.82 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45846b14-0fa5-4dc5-a3b8-35b0dc97711e)
-    (property "Reference" "POWER1" (at 86.36 124.46 0)
+    (property "Reference" "J1" (at 86.36 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 86.36 127 0)
@@ -1072,7 +1072,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "POWER1") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1106,7 +1106,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 149.86 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58383bb8-5fa3-428d-8b25-a59c46d7f50b)
-    (property "Reference" "J1" (at 151.13 115.57 0)
+    (property "Reference" "J2" (at 151.13 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x06_Odd_Even" (at 151.13 118.11 0)
@@ -1133,7 +1133,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1142,7 +1142,7 @@
   (symbol (lib_id "Device:R") (at 172.72 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59d02b5b-9a0c-492d-b5f2-9884d4e41d15)
-    (property "Reference" "POWER-RESISTOR1" (at 172.72 54.61 90)
+    (property "Reference" "R2" (at 172.72 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R330" (at 172.72 57.15 90)
@@ -1159,7 +1159,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "POWER-RESISTOR1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1168,7 +1168,7 @@
   (symbol (lib_id "Isolator:EL817") (at 172.72 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6e701af-3470-4ea3-b848-79329f676ef3)
-    (property "Reference" "POWER-SWITCH1" (at 172.72 34.29 0)
+    (property "Reference" "U2" (at 172.72 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL817" (at 172.72 36.83 0)
@@ -1187,7 +1187,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "POWER-SWITCH1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1196,7 +1196,7 @@
   (symbol (lib_id "Isolator:EL817") (at 226.06 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abfa5548-c9fe-4d66-83b2-22bf3e75a172)
-    (property "Reference" "LED-SWITCH1" (at 226.06 34.29 0)
+    (property "Reference" "U3" (at 226.06 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EL817" (at 226.06 36.83 0)
@@ -1215,7 +1215,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "LED-SWITCH1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1224,7 +1224,7 @@
   (symbol (lib_id "Device:R") (at 124.46 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6799e09-6a8e-400b-b036-a1d49fd38e04)
-    (property "Reference" "RESET-RESISTOR1" (at 124.46 54.61 90)
+    (property "Reference" "R1" (at 124.46 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R330" (at 124.46 57.15 90)
@@ -1241,7 +1241,7 @@
     (instances
       (project "PC-Power-Control"
         (path "/b176fc4e-680d-43fa-882a-ac6582b0a032"
-          (reference "RESET-RESISTOR1") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
